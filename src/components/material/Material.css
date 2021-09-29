@@ -1,0 +1,53 @@
+.material {
+    width: 270px;
+    height: 270px;
+    border: 1px solid rgb(228, 228, 228);
+    position: relative;
+    margin-top: 40px;
+}
+
+.material > p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 17px;
+    top: 22px;
+    color: #000000;
+}
+
+.materialHR {
+    position: absolute;
+    width: 240px;
+    top: 57px;
+    left: 6%;
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.material > .collection {
+    position: absolute;
+    width: 250px;
+    height: 194px;
+    left: 17px;
+    top: 68px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 36px;
+    color: #666666;
+}
+
+.material > .collection > .collection_item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.collection_item > input {
+    margin-right: 10px;
+} 
