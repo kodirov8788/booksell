@@ -1,9 +1,9 @@
-import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom'
-import {DataProvider} from './GlobalState'
-import Header from './components/headers/Header'
-import MainPages from './components/mainpages/Pages'
-
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { DataProvider } from "./GlobalState";
+import Header from "./components/headers/Header";
+import MainPages from "./components/mainpages/Pages";
+import Navbar from "./components/nav/Navbar";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Router>
         <div className="App">
           <Header />
+          <Navbar />
           <MainPages />
         </div>
       </Router>

@@ -62,7 +62,7 @@ function Header() {
 
       <div className="logo">
         <h1>
-          <Link to="/">{isAdmin ? "Admin" : "BOOKSELL"}</Link>
+          <Link to="/">{isAdmin ? "Admin" : "Goodle"}</Link>
         </h1>
         <div className="dot"></div>
       </div>
@@ -74,9 +74,8 @@ function Header() {
           <li>
             <span>
               <BsPerson />
-              <b>0</b>
             </span>
-            <Link to="/login">my account</Link>
+            <Link to="/login">My account</Link>
           </li>
         )}
         <li>
@@ -84,7 +83,7 @@ function Header() {
             <FiHeart />
             <b>0</b>
           </span>
-          <Link to="/">Wishlist</Link>
+          <Link to="/">Wishlist : </Link>
           <span>$0</span>
         </li>
         <li>
@@ -92,7 +91,7 @@ function Header() {
             <FiShoppingBag />
             <b>0</b>
           </span>
-          <Link to="/">Your cart</Link>
+          <Link to="/">Your Cart : </Link>
           <span>$0</span>
         </li>
         <li>
@@ -109,7 +108,7 @@ function Header() {
       {isAdmin ? (
         ""
       ) : (
-        <div className="cart-icon">
+        <div className="cart__icon">
           <span>{cart.length}</span>
           <Link to="/cart">
             <img src={Cart} alt="" width="30" />
