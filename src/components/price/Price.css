@@ -1,0 +1,44 @@
+.price {
+    width: 270px;
+    height: 380px;
+    border: 1px solid rgb(228, 228, 228);
+    margin-top: 40px;
+    position: relative;
+}
+
+.price > p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 17px;
+    top: 22px;
+}
+
+.price > .hr {
+    position: absolute;
+    width: 240px;
+    top: 55px;
+    left: 6%;
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.price > .collection {
+    height: auto;
+    position: absolute;
+    top: 60px;
+    width: 252px;
+}
+
+.price > .collection > .collection_item {
+    display: flex !important;
+    align-items: center;
+}
+
+.price > .collection > .collection_item > a{
+    color: #666666;
+}

@@ -1,0 +1,42 @@
+.sidebar_color {
+    width: 270px;
+    height: 270px;
+    border: 1px solid rgb(228, 228, 228);
+    margin-top: 40px;
+    position: relative;
+}
+
+.sidebar_color > .hr {
+    position: absolute;
+    width: 240px;
+    top: 55px;
+    left: 6%;
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.sidebar_color > p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 17px;
+    top: 22px;
+    color: #000000;
+}
+
+.sidebar_color > .collection {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    width: 252px;
+}
+
+.sidebar_color > .collection > .collection_item {
+    display: flex;
+    align-items: center;
+}

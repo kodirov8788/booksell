@@ -1,0 +1,55 @@
+.sidebar {
+    width: 270px;
+    height: 550px;
+    background-color: #fff;
+    border: 1px solid rgb(228, 228, 228);
+    position: relative;
+}
+
+.sidebar > p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 17px;
+    top: 22px;
+    color: #000000;
+}
+
+.hr {
+    position: absolute;
+    width: 240px;
+    top: 59px;
+    left: 6%;
+    right: 4.81%;
+    top: 11.57%;
+    bottom: 88.24%;
+    background: #EEEEEE;
+}
+
+.collection {
+    width: 138px;
+    height: 422px;
+    position: absolute;
+    left: 6.3%;
+    right: 42.59%;
+    top: 13.14%;
+    bottom: 4.12%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 36px;
+    /* or 300% */
+
+
+    color: #666666;
+}
+
+.collection_item > a {
+    color: #8C8C9C;
+}
